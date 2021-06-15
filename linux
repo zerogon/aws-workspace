@@ -1,1 +1,11 @@
 
+echo $0 zsh vs bash
+
+backup -> chmod +x backup
+
+#!/bin/bash
+if ! [ -d bak ]; #현재 디렉토리에 bak 디렉토리가 존재하는가
+  mkdir bak
+fi
+cp *.log bak
+
