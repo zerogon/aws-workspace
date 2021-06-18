@@ -9,3 +9,14 @@ if ! [ -d bak ]; #현재 디렉토리에 bak 디렉토리가 존재하는가
 fi
 cp *.log bak
 
+---
+sudo apt-get install htop
+ex) load average core(부하) 수 1,2,3,4 > load average 2.57 2.43 3.57 1분, 5분, 15분 cpu 점유율 평균치 
+-> 코어 4개에 8부하 점유율 : 8-4 4개의 프로세스가 대기, 1부하 4개중 1 하나만 일하는 중
+
+locate *.log
+find 현재상태를 알 수 있다.
+
+
+whereis 실행파일이 어디에 있는 지 
+echo $PATH ':' 구분
