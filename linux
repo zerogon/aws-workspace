@@ -20,3 +20,9 @@ find 현재상태를 알 수 있다.
 
 whereis 실행파일이 어디에 있는 지 
 echo $PATH ':' 구분
+
+#host 
+#DNS 서버 설정 확인
+/etc/resolv.conf
+
+#host 선 확인 후 DNS서버 확인
