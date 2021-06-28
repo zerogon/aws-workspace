@@ -26,3 +26,13 @@ echo $PATH ':' 구분
 /etc/resolv.conf
 
 #host 선 확인 후 DNS서버 확인
+
+#crontab 
+crontab -e
+*/1 * * * * date >> date.log 2>&1
+에러 발생시 표준출력으로 함께 저장
+
+#statup
+alias l= 'ls-al'
+홈디렉토리 .bashrc 수정
+
