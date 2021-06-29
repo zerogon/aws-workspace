@@ -36,3 +36,10 @@ crontab -e
 alias l= 'ls-al'
 홈디렉토리 .bashrc 수정
 
+$ 가 일반유저
+# 슈퍼유저
+sudo - 
+who
+id
+sudo passwd -u root #unlock
+man passwd
