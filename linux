@@ -43,3 +43,8 @@ who
 id
 sudo passwd -u root #unlock
 man passwd
+- rw-rw-r-- 1 owner group 0 날짜 파일명
+x: excute 
+access mode 
+
+#!/bin/bash
