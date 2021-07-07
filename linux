@@ -48,3 +48,9 @@ x: excute
 access mode 
 
 #!/bin/bash
+
+chmod -R o+w
+폴더내의 모든 other 사용자에 대해서 write 권한
+
+a는 all, 0~8까지 1,2,4의 조합
+chmod a=r
